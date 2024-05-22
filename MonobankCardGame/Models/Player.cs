@@ -19,6 +19,19 @@ namespace MonobankCardGame.Models
 
         public void MakeBet(int amount, int cardLayout, Round currentRound)
         {
+            if (chips < amount)
+            {
+                throw new Exception("Not enough chips.");
+            }
+            if (amount < 0)
+            {
+                throw new ArgumentException("amount must be > 0.");
+            }
+            if (cardLayout != 1 && cardLayout != 2)
+            {
+                throw new ArgumentException("cardLayout must be equal 1 or 2.");
+            }
+
             Bet bet = new Bet(this, amount, cardLayout);
             currentRound.AddBet(bet);
             chips -= amount;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonobankCardGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccda6deacf7a0e6dab6254fff99d6a7afcb70218")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+522c7d536537f5c82e559bd0684777399b78f8f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonobankCardGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonobankCardGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,6 +17,10 @@ namespace MonobankCardGame.Models
 
         public Round(int number, CardLayout firstCardLayout, CardLayout secondCardLayout)
         {
+            if (number < 1) 
+            {
+                throw new ArgumentException("number must be >= 1.");
+            }
             this.number = number;
             this.firstCardLayout = firstCardLayout;
             this.secondCardLayout = secondCardLayout;
